@@ -1,0 +1,202 @@
+{
+ "cells": [
+  {
+   "cell_type": "code",
+   "execution_count": 10,
+   "id": "d82a054e-6358-4323-b809-c58eb2911af3",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "a = 114\n",
+    "b = 50\n",
+    "c = a + b"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 2,
+   "id": "166bd757-214a-4fac-8597-71c1dbb75b55",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "164"
+      ]
+     },
+     "execution_count": 2,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "c"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 13,
+   "id": "b897d565-f326-4405-bb0a-2f343c2d7979",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "a = 77\n",
+    "b = 3.5\n",
+    "c = a + b"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 4,
+   "id": "14add5d2-eaad-4c68-94b5-2b26f4f47a6c",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "80.5"
+      ]
+     },
+     "execution_count": 4,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "c"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 5,
+   "id": "e47e3d44-2b92-457c-8854-3c9fcd38d81a",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "firstname = \"John\""
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 6,
+   "id": "7b345854-e7ef-4d3e-9c57-55b8e96d2694",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "lastname = \"Oliver\""
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 8,
+   "id": "fb616c10-1768-4552-badf-cb944d6e27cd",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "name = firstname + \" \" + lastname"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 9,
+   "id": "d4db3e70-58dc-4df5-9786-66effe9b09f8",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "'John Oliver'"
+      ]
+     },
+     "execution_count": 9,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "name"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 14,
+   "id": "f2603caa-c03d-47d9-9c93-2ba951dfff47",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "myFirstStringVar = \"I am a\""
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 18,
+   "id": "03f16ea0-98ac-4804-8984-3d1307e9e358",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "mySecondStringVar = \"Data Scientist\""
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 15,
+   "id": "e9e85811-03bb-4c39-89a4-3c3375586e13",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "mySpaceVar = \" \""
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 17,
+   "id": "be007353-16d8-4ea7-b676-971e57505fd0",
+   "metadata": {},
+   "outputs": [
+    {
+     "ename": "NameError",
+     "evalue": "name 'mySecondSpringVar' is not defined",
+     "output_type": "error",
+     "traceback": [
+      "\u001b[1;31m---------------------------------------------------------------------------\u001b[0m",
+      "\u001b[1;31mNameError\u001b[0m                                 Traceback (most recent call last)",
+      "Cell \u001b[1;32mIn[17], line 1\u001b[0m\n\u001b[1;32m----> 1\u001b[0m WhoAreYou \u001b[38;5;241m=\u001b[39m myFirstStringVar \u001b[38;5;241m+\u001b[39m \u001b[38;5;124m\"\u001b[39m\u001b[38;5;124m \u001b[39m\u001b[38;5;124m\"\u001b[39m \u001b[38;5;241m+\u001b[39m mySpaceVar \u001b[38;5;241m+\u001b[39m \u001b[38;5;124m\"\u001b[39m\u001b[38;5;124m \u001b[39m\u001b[38;5;124m\"\u001b[39m \u001b[38;5;241m+\u001b[39m mySecondSpringVar\n",
+      "\u001b[1;31mNameError\u001b[0m: name 'mySecondSpringVar' is not defined"
+     ]
+    }
+   ],
+   "source": [
+    "WhoAreYou = myFirstStringVar + \" \" + mySpaceVar + \" \" + mySecondSpringVar"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "367eba32-82c8-4e2f-b96f-b36bd4939cdf",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  }
+ ],
+ "metadata": {
+  "kernelspec": {
+   "display_name": "Python 3 (ipykernel)",
+   "language": "python",
+   "name": "python3"
+  },
+  "language_info": {
+   "codemirror_mode": {
+    "name": "ipython",
+    "version": 3
+   },
+   "file_extension": ".py",
+   "mimetype": "text/x-python",
+   "name": "python",
+   "nbconvert_exporter": "python",
+   "pygments_lexer": "ipython3",
+   "version": "3.11.7"
+  }
+ },
+ "nbformat": 4,
+ "nbformat_minor": 5
+}
